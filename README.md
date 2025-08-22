@@ -6,22 +6,31 @@ Proyek ini bertujuan untuk membangun model machine learning untuk memprediksi ki
 Struktur Proyek
 
 -PaperJournal/ – Naskah akhir proyek (format .docx dan .pdf)
+
 -Proposal/ – Dokumen proposal awal penelitian dan perencanaan model
+
 -SourceCode/ – Notebook Jupyter berisi preprocessing, modeling, evaluasi, dan visualisasi
+
 -Dataset/ – Dataset Student Performance Prediction (format .csv/.xlsx)
 
 README.md – Dokumentasi lengkap proyek
 
 Deskripsi Dataset
 -Sumber: Kaggle – Student Performance Prediction Dataset
+
 -Jumlah sampel: 145 mahasiswa
+
 -Jumlah fitur: 14 atribut prediktor
+
 -Target: Grade nilai akhir (AA, BA, BB, CB, CC, DC, DD, FD, FF)
 
 Contoh fitur:
 -Study hours (lama belajar)
+
 -Attendance (tingkat kehadiran)
+
 -Class participation (partisipasi kelas)
+
 -Exam performance (hasil ujian)
 
 Metodologi
@@ -48,12 +57,15 @@ Feature Importance
 Tujuan Proyek
 
 -Membandingkan efektivitas Logistic Regression (SGD) dan Random Forest
+
 -Menganalisis trade-off antara efisiensi komputasi (Logistic Regression) dan akurasi/stabilitas prediksi (Random Forest)
+
 -Memberikan gambaran pemanfaatan machine learning dalam mendukung sistem prediksi kinerja akademik mahasiswa
 
 Penulis
 
 Shanaya Balghis Riyona (241552010012)
+
 Shifi Amalia Zein (241552010013)
 
 Institusi
@@ -64,6 +76,7 @@ Dosen Pengampu: Bapak Hendri Setiawan, S.Kom., M.T.
 
 Lisensi Dataset
 Dataset tersedia secara publik di Kaggle dengan lisensi Creative Commons CC BY 4.0
+
 
 
 
