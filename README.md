@@ -1,39 +1,32 @@
 # Prediksi Kinerja Akademik Mahasiswa  
-**Perbandingan Logistic Regression (SGD) dan Random Forest**
+*Perbandingan Logistic Regression (SGD) dan Random Forest*
 
 Proyek ini bertujuan untuk membangun model machine learning untuk **memprediksi kinerja akademik mahasiswa** menggunakan dataset Student Performance Prediction dari Kaggle. Dua algoritma yang dibandingkan adalah **Logistic Regression dengan optimisasi Stochastic Gradient Descent (SGD)** dan **Random Forest**.  
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-orange)
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green)
-![Status](https://img.shields.io/badge/Project-UTS%20Probstat%202024--2025-yellow)
-
-
-
 ## Struktur Proyek
-- `PaperJournal/` – Naskah akhir proyek (format .docx dan .pdf)  
+- `PaperJournal/` – Naskah akhir proyek dalam format `.docx` dan `.pdf`  
 - `Proposal/` – Dokumen proposal awal penelitian dan perencanaan model  
 - `SourceCode/` – Notebook Jupyter berisi preprocessing, modeling, evaluasi, dan visualisasi  
-- `Dataset/` – Dataset Student Performance Prediction (format .csv/.xlsx)  
+- `Dataset/` – Dataset Student Performance Prediction dalam format `.csv` / `.xlsx`  
 - `README.md` – Dokumentasi lengkap proyek  
 
 ## Deskripsi Dataset
-- **Sumber:** Kaggle – *Student Performance Prediction Dataset*  
+- **Sumber:** [Kaggle – Student Performance Prediction Dataset](https://www.kaggle.com/datasets/prajwalkanade/student-performance-prediction-dataset?utm_source=)  
 - **Jumlah sampel:** 145 mahasiswa  
 - **Jumlah fitur:** 14 atribut prediktor  
-- **Target:** Grade nilai akhir (AA, BA, BB, CB, CC, DC, DD, FD, FF)  
+- **Target:** Grade nilai akhir mahasiswa (AA, BA, BB, CB, CC, DC, DD, FD, FF)  
 - **Contoh fitur:**  
-  - Study hours (lama belajar)  
-  - Attendance (tingkat kehadiran)  
-  - Class participation (partisipasi kelas)  
-  - Exam performance (hasil ujian)  
+  - `Study hours` (lama belajar)  
+  - `Attendance` (tingkat kehadiran)  
+  - `Class participation` (partisipasi kelas)  
+  - `Exam performance` (hasil ujian)  
 
 ## Metodologi
 ### 1. Preprocessing
 - Data cleaning (menangani missing values)  
 - Encoding variabel kategorikal (label encoding / one-hot encoding)  
 - Normalisasi fitur numerik (StandardScaler)  
-- Split data (80% training, 20% testing)  
+- Split data: 80% training, 20% testing  
 
 ### 2. Modeling
 - **Algoritma:** Logistic Regression (SGD), Random Forest  
@@ -56,9 +49,13 @@ Proyek ini bertujuan untuk membangun model machine learning untuk **memprediksi 
 - Shifi Amalia Zein (241552010013)  
 
 ## Institusi
-STMIK Tazkia – Program Studi Teknik Informatika  
+Sekolah Tinggi Manajemen Informatika dan Komputer Tazkia, Fakultas Teknik Informatika  
 Mata Kuliah **Statistik dan Probabilitas – Semester II – Tahun Akademik 2024/2025**  
 Dosen Pengampu: Bapak Hendri Setiawan, S.Kom., M.T.  
 
 ## Lisensi Dataset
-Dataset tersedia secara publik di Kaggle dengan lisensi **Creative Commons CC BY 4.0**  
+Lisensi: Creative Commons CC BY 4.0  
+
+---
+
+> Proyek ini dibuat sebagai bagian dari tugas besar UTS untuk mata kuliah yang diampu oleh Bapak Hendri Kharisma, S.Kom., M.T.
